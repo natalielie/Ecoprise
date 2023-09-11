@@ -1,0 +1,67 @@
+/* Provide sufficient contrast against white background */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size: 9pt;
+}
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+select {
+    border-bottom-width: medium;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+}
+
+select:focus {
+    border-bottom-width: medium;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    box-shadow: 0 0 3pt 2pt #719ECE;
+}
+
+select:after {
+    border-bottom-width: medium;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+.langSelect {
+    width: 62px;
+    background: transparent;
+    border-color: transparent;
+    flex-direction: row;
+    position: fixed;
+    right: 60px;
+    top: 18px;
+}
+
+.navbar-brand {
+    color: #343a40;
+}
+
+.eco_logo{
+    margin-left: 300px;
+}
